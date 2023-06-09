@@ -1,0 +1,37 @@
+/*Checkout division starts*/
+.check-out-division {
+    padding: 85px 65px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .check-out-division h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #05003d;
+  }
+  .check-out-division button {
+    border-radius: 9px;
+    margin: 0 auto;
+    margin-top: 55px;
+  }
+  
+  .check-out-division input[type='text'],.check-out-division input[type='email'],.check-out-division input[type='time'],
+  .check-out-division input[type='tel'],.check-out-division input[type='date'] {
+    width:521px; height: 50px;
+    border-radius: 9px;
+    border-color: #606060;
+    outline-color: #606060;
+    margin: 11px 0;
+    padding: 3px 19px;
+    font-size: 22px;
+    color: #606060;
+  }
+  label {
+    font-size: 22px;
+  }
+  
+  #f-name, #l-name, #city {
+    text-transform: capitalize;
+  }
+  /*Checkout division ends*/
